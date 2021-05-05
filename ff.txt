@@ -1,0 +1,11 @@
+Python 2.7.3 (default, Dec 17 2020, 22:44:07)
+[GCC 4.6.3] on linux2
+Type "help", "copyright", "credits" or "license" for more information.
+>>> import pysniff
+>>> for i in pysniff.packgen():
+... print i
+...
+{'ip_destination': '192.168.1.111', 'tcp_seq': '10972', 'ip_source': '173.194.32.53', 'tcp_offset': '8', 'tcp_source_port': '443', 'tcp_dest_port': '44021'}
+{'ip_destination': '173.194.32.53', 'tcp_seq': '47475', 'ip_source': '192.168.1.111', 'tcp_offset': '8', 'tcp_source_port': '44021', 'tcp_dest_port': '443'}
+{'ip_destination': '192.168.1.111', 'tcp_seq': '10972', 'ip_source': '173.194.32.53', 'tcp_offset': '8', 'tcp_source_port': '443', 'tcp_dest_port': '44021'}
+{'ip_destination': '173.194.32.53', 'tcp_seq': '47475', 'ip_source': '192.168.1.111', 'tcp_offset': '8', 'tcp_source_port': '44021', 'tcp_dest_port': '443'}
